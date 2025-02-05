@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     public static Connection getConnection() {
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ir_real_estates", "root", "Isuri#02");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://####/ir_real_estates", "########", "#####");
             System.out.println("Connected to the database");
             return conn;
         } catch (SQLException e) {
